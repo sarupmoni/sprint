@@ -1,0 +1,106 @@
+3 start
+zero:0 one:1 two:2 three:3 four:4 five:5 seven:7 nine:9
+program_location:e0 pointer:0
+
+start:0 end end
+7 program_location pointer
+
+check1:7 pointer pointer1
+4 pointer1:0 nine stop 
+check2:7 pointer pointer2
+4 pointer2:0 one addition
+check3:7 pointer pointer3
+4 pointer3:0 two subtraction
+check4:7 pointer pointer4
+4 pointer4:0 three jump 
+check5:7 pointer pointer5
+4 pointer5:0 four check_equal 
+check6:7 pointer pointer6
+4 pointer6:0 five check_less 
+check7:7 pointer pointer7
+4 pointer7:0 seven copy 
+check8:7 pointer pointer8 
+4 pointer8:0 zero work_zero 9
+
+addition:1 pointer one pointer
+7 pointer a1
+1 pointer one pointer
+7 pointer a2
+1 pointer one pointer
+7 pointer a3
+1 end a1:0 value1
+1 end a2:0 value2
+1 end a3:0 value3
+1 value1:0 value2:0 value3:0
+1 pointer one pointer
+3 check1
+
+subtraction:1 pointer one pointer
+7 pointer s1
+1 pointer one pointer
+7 pointer s2
+1 pointer one pointer
+7 pointer s3
+1 end s1:0 value4
+1 end s2:0 value5
+1 end s3:0 value6
+2 value4:0 value5:0 value6:0
+1 pointer one pointer
+3 check1
+
+jump:1 pointer one pointer
+7 pointer j1
+1 end j1:0 pointer
+3 check1
+
+check_equal:1 pointer one pointer
+7 pointer ce1
+1 pointer one pointer
+7 pointer ce2
+1 pointer one pointer 
+7 pointer ce3
+1 end ce1:0 e1
+1 end ce2:0 e2
+4 e1:0 e2:0 jump1
+1 pointer one pointer
+3 check1
+jump1:1 end ce3:0 pointer
+3 check1
+
+check_less:1 pointer one pointer
+7 pointer cl1
+1 pointer one pointer
+7 pointer cl2
+1 pointer one pointer 
+7 pointer cl3
+1 end cl1:0 l1
+1 end cl2:0 l2
+5 l1:0 l2:0 jump2
+1 pointer one pointer
+3 check1
+jump2:1 end cl3:0 pointer
+3 check1
+
+copy:1 pointer one pointer
+7 pointer co1
+1 pointer one pointer
+7 pointer co2
+1 end co1:0 c1
+1 end co2:0 c2
+7 c1:0 c2:0
+1 pointer one pointer
+3 check1
+
+work_zero:1 pointer one pointer
+7 pointer o1
+1 pointer one pointer
+7 pointer o2
+1 end o2:0 value7
+7 o1:0 value7:0
+1 pointer one pointer
+3 check1
+
+stop:9
+end:0
+
+e0:0 100 5 9
