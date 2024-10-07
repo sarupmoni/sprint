@@ -1,0 +1,11 @@
+3 start
+e1:1 e2:2 e3:3 e4:4 e5:5
+result:0
+number_of_element:5
+counter:0 one:1
+start:1 address:e1 result result
+1 address one address
+1 counter one counter
+4 counter number_of_element stop
+3 start
+stop:9
