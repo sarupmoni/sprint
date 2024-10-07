@@ -1,0 +1,14 @@
+3 start 
+input:61 output:0 zero:0 one:1 three:3 num:2 copy_input:0
+start:7 input copy_input
+check1:5 three copy_input check2 
+result:7 one output 9
+check2:5 copy_input num check3 
+2 copy_input num copy_input
+3 check2
+check3:4 copy_input zero stop 
+7 input copy_input
+1 num one num
+4 copy_input num result 
+3 check2
+stop:9
