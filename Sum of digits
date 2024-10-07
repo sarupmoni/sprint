@@ -1,0 +1,14 @@
+3 5 number:100 result:0
+3 start
+divisor:0 quotient:0 ten:10 one:1 zero:0 nine:9
+start:7 number divisor
+check1:5 nine divisor body 3 output
+body:2 divisor ten divisor
+1 quotient one quotient
+3 check1
+output:1 result divisor result
+7 quotient divisor
+7 zero quotient
+4 divisor zero stop 
+3 check1
+stop:9
