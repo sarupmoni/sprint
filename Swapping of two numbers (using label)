@@ -1,0 +1,5 @@
+3 start input1:3 input2:2 temp:0 
+start:7 input1 temp
+7 input2 input1
+7 temp input2
+9
