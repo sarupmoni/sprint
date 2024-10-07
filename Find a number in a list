@@ -1,0 +1,13 @@
+3 7 first_element_location:36 length:4 target:4 result:0 
+3 start 
+one:1 counter:0
+start:7 first_element_location address 
+check:4 counter length stop
+4 target address:0
+copy_result
+1 address one address
+1 counter one counter
+3 check
+copy_result:7 one result
+stop:9
+1 02 03 04 0 0 0 0 0 0
