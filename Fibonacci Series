@@ -1,0 +1,24 @@
+3 5 first_element_location:100 length:3
+3 start
+zero:0 one:1 two:2 counter:2 
+
+start:4 length zero stop 
+4 length one copy0 3 copy1
+copy0:7 first_element_location add0
+7 zero add0:0 9
+
+copy1:7 first_element_location add1
+7 zero add1:0 
+1 first_element_location one add2
+7 one add2:0
+7 first_element_location address1
+1 first_element_location one address2 
+1 first_element_location two address3
+check:5 counter length add 9
+add:1 address1:0 address2:0 address3:0
+1 address1 one address1
+1 address2 one address2
+1 address3 one address3
+1 counter one counter
+3 check
+stop:9
