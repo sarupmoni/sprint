@@ -1,0 +1,24 @@
+3 5 input:2 output:0 
+3 start
+number_of_count:2 counter:0 result:0 zero:0 one:1
+start:4 input zero copy_0
+4 input one copy_1
+4 input 7 copy_1
+4 input 1 copy_1
+3 check_counter
+copy_0:7 zero output 9
+copy_1:7 one output 9
+check_counter:5 counter number_of_count increment_of_result
+3 check_result_input
+increment_of_result:1 result number_of_count result 
+1 counter one counter 
+3 check_counter
+check_result_input:4 result input copy_output_N
+3 check_input_result
+copy_output_N:7 number_of_count output 9
+check_input_result:5 input result output_N-1
+1 number_of_count one number_of_count 
+7 zero counter 
+7 zero result
+3 check_counter
+output_N-1:2 number_of_count one output 9
