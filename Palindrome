@@ -1,0 +1,22 @@
+3 6 first_element_location:100 length:5 result:1 
+3 start
+length1:0 one:1 count:2 count1:1 length2:0 counter1:0 counter2:0
+start:5 length count output 
+2 length one length1
+7 length length2
+7 first_element_location add1
+1 first_element_location length1 add2
+check:5 count1 length2 check2 
+3 check3
+check2:1 counter1 one counter1
+4 add1:0 add2:0 increment 3 stop
+increment:1 counter2 one counter2
+1 add1 one add1
+2 add2 one add2 
+1 count1 one count1
+2 length2 one length2
+3 check
+check3:4 counter1 counter2 output 9
+output:1 result one result
+stop:9
+100 200 300 200 100 
