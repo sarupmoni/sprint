@@ -1,0 +1,19 @@
+3 7 seq_location:65 seq_length:3
+cycle_location:100 cycle_length:20
+3 start
+count:0 count2:1 one:1 zero:0
+start:4 seq_length zero stop 
+7 seq_location add1
+7 cycle_location add2
+check:5 count cycle_length body 9
+body:7 add1:0 add2:0
+1 add1 one add1
+1 add2 one add2
+1 count one count
+4 count2 seq_length restart
+1 count2 one count2
+3 check
+restart:7 seq_location add1
+7 one count2
+3 check
+stop:9
